@@ -1,0 +1,14 @@
+.body{
+    background-color: rgb(242, 158, 255);
+    animation-direction: normal;
+}
+.heading{
+    color: rgb(133, 2, 255);
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.heading:hover{
+    font-size: larger;
+    color: black;
+}
