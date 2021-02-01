@@ -72,7 +72,7 @@ app.post('/compilecode', function (req, res) {
         console.log(response.body);
         var my_output = JSON.parse(response.body);
         if(my_output.run_status.status != 'AC'){
-            actualoutput = "Please Check the code ";
+            actualoutput = "Please check the Code and language selected.";
         actualinput = input;
         actualcode = code;
         actualtime = my_output.run_status.time_used;
