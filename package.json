@@ -10,9 +10,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mohdabdulirfan/Online-Compiler.git"
+    "url": "git+https://github.com/akshay-cybermind/CODEC.git"
   },
-  "author": "M.A.Irfan",
+  "author": "AKSHAY",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mohdabdulirfan/Online-Compiler/issues"
