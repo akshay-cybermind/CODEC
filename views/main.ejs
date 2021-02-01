@@ -31,19 +31,19 @@
         font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
           "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
         /* font-size: large; */
-        color: #8407a3;
+        color: #09254e;
         /* background: #ffffff; */
         text-shadow: 1px 0px 1px #cccccc, 0px 1px 1px #eeeeee,
           2px 1px 1px #cccccc, 1px 2px 1px #eeeeee, 3px 2px 1px #cccccc,
           2px 3px 1px #eeeeee, 4px 3px 1px #cccccc, 3px 4px 1px #eeeeee,
           5px 4px 1px #cccccc, 4px 5px 1px #eeeeee, 6px 5px 1px #cccccc,
           5px 6px 1px #eeeeee, 7px 6px 1px #cccccc;
-        color: #8407a3;
+          color: #0063f7;
         /* background: #ffffff; */
       }
       .heading:hover {
         font-size: x-large;
-        color: black;
+        color: rgba(206, 59, 59, 0.863);
       }
       .lang {
         font-size: medium;
@@ -93,7 +93,7 @@
       .selection select {
         width: 20%;
         padding: 10px 15px;
-        border: 1px dashed rgb(243, 210, 253);
+        border: 1px dashed #6eddff; 
         border-radius: 4px;
         /* background-color: rgb(183, 0, 255); */
         box-sizing: border-box;
@@ -176,8 +176,14 @@
             <input
               type="submit"
               class="btn btn-success btn-lg"
-              value="Submit"
+              value="Run"
               name="submit"
+            />
+            <input
+              type="button"
+              value="Clear"
+              class="btn btn-info btn-lg"
+              onclick="javascript:eraseText();"
             />
           </div>
           <br />
@@ -191,14 +197,9 @@
           <div class="memory">
             <p id="memory">Memory Used:<%= mainmemory %></p>
           </div>
-          <div class="clear_button">
-            <input
-              type="button"
-              value="Clear"
-              class="btn btn-info btn-lg"
-              onclick="javascript:eraseText();"
-            />
-          </div>
+          <!-- <div class="clear_button">
+            
+          </div> -->
           <br /><br />
           <script>
             function eraseText() {
