@@ -71,6 +71,9 @@ app.post('/compilecode', function (req, res) {
         if (error) throw new Error(error.message);
         console.log(response.body);
         var my_output = JSON.parse(response.body);
+        if(code.equals("")){
+            actualoutput="Please enter the code before running!";
+        }
         if(my_output.run_status.status != 'AC'){
             actualoutput = "Please check the language selected and " + my_output.run_status.status_detail;
         actualinput = input;
